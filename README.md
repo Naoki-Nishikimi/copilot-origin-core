@@ -34,3 +34,27 @@ Commercial use, redistribution, or modification requires explicit written consen
 Any use must include the following attribution:
 
 
+
+See [LICENSE](./LICENSE) and [LICENSE_FULL.md](./LICENSE_FULL.md) for full terms.
+
+---
+
+## Documentation
+
+Additional design notes, prompt architectures, and strategic deployment guides are available in the `/docs` directory.
+
+- `docs/tag-structure.md` – Tag Revolution design logic  
+- `docs/personality-mapping.md` – Emotional and strategic mapping  
+- `docs/contract-template-ja.md` – Japanese license agreement template  
+- `docs/contract-template-en.md` – English license agreement template
+
+---
+
+## Contact
+
+For licensing inquiries, strategic collaborations, or enterprise deployment, please contact:  
+📧 naoki.nishikimi@yourdomain.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/naoki-nishikimi) *(optional)*
+
+---
+
