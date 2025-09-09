@@ -53,8 +53,7 @@ Additional design notes, prompt architectures, and strategic deployment guides a
 ## Contact
 
 For licensing inquiries, strategic collaborations, or enterprise deployment, please contact:  
-📧 naoki.nishikimi@yourdomain.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/naoki-nishikimi) *(optional)*
+📧 9012koara@gmail.com
 
 ---
 
