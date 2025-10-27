@@ -1,0 +1,26 @@
+% latex_appendix.tex
+% Appendix: Prototype Algorithms for Tag Revolution
+
+\section*{Appendix A: Prototype Algorithms}
+\paragraph{Multi-layer Coordinates.}
+We define semantic coordinates as a concatenation of surface, conceptual, and relational vectors:
+\begin{align}
+\mathbf{v}_{sem} = [\mathbf{v}_{surf} \, ; \, \mathbf{v}_{concept} \, ; \, \mathbf{v}_{rel}].
+\end{align}
+Surface embeddings are deterministic hash vectors; conceptual vectors derive from a lexicon of
+conceptual triggers; relational vectors are hashed co-occurrence cues.
+
+\paragraph{Temporal Layers.}
+We encode four families of temporal signals:
+absolute sinusoidal time, relative time-delta to the query, periodic (weekday/month),
+and an era bucket:
+\begin{align}
+\mathbf{v}_{temp} = [\mathbf{v}_{abs} \, ; \, \mathbf{v}_{rel} \, ; \, \mathbf{v}_{per} \, ; \, \mathbf{v}_{era}].
+\end{align}
+
+\paragraph{Fusion and Retrieval.}
+The prototype fuses by concatenation
+$\mathbf{v} = [\mathbf{v}_{sem};\mathbf{v}_{temp}]$
+and ranks documents via cosine similarity.
+Production systems may replace concatenation with learned fusion and add
+graph-based re-ranking consistent with Contract Tag constraints.
